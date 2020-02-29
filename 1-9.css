@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.box{
+	width: 960px;
+	margin: 50px 0;
+}
+.box-item{
+	float: left;
+	padding: 10px;
+	width: 300px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.1);
+	position: relative;
+}
+.box-item:nth-child(2){
+	margin: 0 30px;
+}
+.box-tag{
+	background-color: orange;
+	color: white;
+	float: left;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 3px;
+}
+.box-pic1{
+	width: 280px;
+	height: 150px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow01.png);
+}
+.box-pic2{
+	width: 280px;
+	height: 150px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow02.png);
+}
+.box-pic3{
+	width: 280px;
+	height: 150px;
+	background-size: cover;
+	background-position: bottom;
+	background-image: url(img/flow03.png);
+}
