@@ -3,11 +3,16 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
 
 
-.box{
+main{
 	width: 960px;
-	margin: 50px 0;
+	margin: 50px auto;
 }
 .box-item{
 	float: left;
@@ -29,24 +34,27 @@
 	top: 0;
 	padding: 3px;
 }
+h3{
+	margin: 15px 0 5px;
+}
 .box-pic1{
-	width: 280px;
-	height: 150px;
+	height: 130px;
 	background-size: cover;
 	background-position: bottom;
 	background-image: url(img/flow01.png);
+	margin: 0 auto;
 }
 .box-pic2{
-	width: 280px;
-	height: 150px;
+	height: 130px;
 	background-size: cover;
 	background-position: bottom;
 	background-image: url(img/flow02.png);
+	margin: 0 auto;
 }
 .box-pic3{
-	width: 280px;
-	height: 150px;
+	height: 130px;
 	background-size: cover;
 	background-position: bottom;
 	background-image: url(img/flow03.png);
+	margin: 0 auto;
 }
